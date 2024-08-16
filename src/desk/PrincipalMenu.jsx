@@ -18,7 +18,7 @@ const PrincipalMenu = () => {
         <div className='flex flex-col md:flex-row items-center'>
           <img src={pic1} className='w-full md:w-[1000px] h-auto' />
         </div>
-        <div className='mx-4 md:mx-16'>
+        <div className='mx-4 md:mx-16 mb-32'>
           <div className='font-Jost font-semibold text-lg md:text-2xl text-justify mt-8 md:mt-24'>
             We make <span className='text-bleuu'>Live</span>, <span className='text-bleuu'>Push</span>,
             <span className='text-bleuu'>Note</span> and <span className='text-bleuu'>Link</span>

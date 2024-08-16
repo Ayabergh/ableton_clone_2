@@ -134,7 +134,7 @@ const Footer = () => {
               <Link to={link} className='hover:text-bleuu'>{name}</Link>
             </div>
           ))}
-          <div className='ml-auto mt-10 whitespace-nowrap'>
+          <div className=' ml-auto mt-10 whitespace-nowrap'>
             made by Aya Bergheul
           </div>
         </div>
