@@ -68,15 +68,13 @@ const PrincipalMenu = () => {
         {/* Section 4 */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-12'>
           <div className='bg-greenn p-6 rounded-lg shadow-lg'>
-            <div className='font-Jost font-semibold text-lg md:text-2xl text-justify'>
+            <div className='font-Jost font-semibold text-lg md:text-xl text-justify'>
               We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.
             </div>
             <div className='font-Jost text-base text-justify pt-3'>
               Rather than having a one-size-fits-all process, we try to give our people what they
               need to work their magic and grow. We’ve learned that achieving the best results 
-              comes from building teams that are richly diverse, and thus able to explore problems
-              from a wider set of perspectives. We don’t always agree with each other, but opinion
-              and debate are valued and openly encouraged.
+              comes from building teams that are richly diverse
             </div>
             <button className='bg-white hover:bg-orangee hover:text-white text-black font-bold py-2 px-4 rounded-full mt-10'>Learn more</button>
           </div>
@@ -91,18 +89,16 @@ const PrincipalMenu = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-12'>
             <img src={pic4} className='w-full h-auto object-cover rounded-lg' />
             <div>
-              <h1 className='font-Jost font-semibold text-lg md:text-xl mt-4'>
+              <h1 className='font-Jost font-semibold text-lg md:text-xl mt-1'>
                 We’re <span className='text-bleuu'>passionate</span> about what we do, but we’re equally passionate about improving who we are.
               </h1>
-              <p className='font-Jost text-base text-justify mt-5'>
+              <p className='font-Jost text-base text-justify mt-1'>
                 We work hard to foster an environment where people can grow both personally and professionally, and we strive 
                 to create a wealth of opportunities to learn from and with each other.
               </p>
-              <p className='font-Jost text-base text-justify mt-5'>
+              <p className='font-Jost text-base text-justify mt-1'>
                 Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, 
-                and coached on applying these in their daily work. In addition, 
-                staff-organized development and music salons are a chance to discuss
-                new technologies, production techniques and best practices.
+                and coached on applying these in their daily work .
               </p>
             </div>
           </div>
@@ -112,16 +108,13 @@ const PrincipalMenu = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-12'>
           <img src={pic5} className='w-full h-auto object-cover rounded-lg' />
           <div className='bg-viollet p-6 rounded-lg shadow-lg'>
-            <div className='font-Jost font-semibold text-lg md:text-2xl text-justify'>
+            <div className='font-Jost font-semibold text-lg md:text-xl text-justify'>
               We aim to make our workplace enjoyable and will support your smooth transition as we seek exceptional global talent.
             </div>
             <div className='font-Jost text-base text-justify pt-3'>
               If you're joining us in Berlin, we'll help with relocation and paperwork.
               We’ll even provide you with free German or English lessons. Plus, working in Germany 
-              means you can expect comprehensive health insurance for you and your family, as well as 
-              generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we 
-              have several company and team outings throughout the year as well as a variety of fun, informal
-              small-group activities.
+              means you can expect comprehensive health insurance for you and your family,
             </div>
             <button className='bg-white hover:bg-orangee hover:text-white text-black font-bold py-2 px-4 rounded-full mt-10'>Learn more</button>
           </div>
