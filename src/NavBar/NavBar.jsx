@@ -5,18 +5,18 @@ import ResponsiveM from './ResponsiveM';
 import { Link } from 'react-router-dom';
 
 export const Links = [
-  { id: 10, name: "About", link: "/about" },
-  { id: 11, name: "Jobs", link: "/jobs" },
-  { id: 12, name: "Apprenticeships", link: "/Apprenticeships" },
-  { id: 5, name: "Shop", link: "/Shop" },
-  { id: 6, name: "Packs", link: "/Packs" },
-  { id: 7, name: "Help", link: "/Help" },
-  { id: 8, name: "More+", link: "/More+" },
+  { id: 10, name: "About", link: "/find" },
+  { id: 11, name: "Jobs", link: "/find" },
+  { id: 12, name: "Apprenticeships", link: "/find" },
+  { id: 5, name: "Shop", link: "/find" },
+  { id: 6, name: "Packs", link: "/find" },
+  { id: 7, name: "Help", link: "/find" },
+  { id: 8, name: "More+", link: "/find" },
 ];
 
 export const Links1 = [
-  { id: 13, name: "GoLive", link: "/Golive" },
-  { id: 9, name: "Login", link: "/log&register" },
+  { id: 13, name: "GoLive", link: "/find" },
+  { id: 9, name: "Login", link: "/find" },
 ];
 
 const NavBar = () => {
@@ -79,7 +79,9 @@ const NavBar = () => {
           <div className='md:hidden'>
             <div className={`${showMenu ? "bg-bleuu" : "bg-white"} flex`}>
               <div className='-mt-4'>
-                <Logo />
+              <Link to={'/'}>
+                    <Logo />
+                  </Link>
               </div>
               <div className='flex'>
                 <h1
